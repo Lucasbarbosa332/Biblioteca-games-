@@ -1,0 +1,148 @@
+$color-dark: #282c34;
+$color-white: #ffffff;
+$color-border-white: 2px solid white;
+
+:root {
+	--tile-size: 48px;
+	--game-size: calc(var(--tile-size) * 20);
+	--helmet-offset: 12px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// --- App
+
+.app {
+	min-width: 100vw;
+	min-height: 100vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: $color-dark;
+}
+
+// --- Board
+
+.board {
+	width: var(--game-size);
+	height: var(--game-size);
+	position: relative;
+}
+
+.board-img {
+	width: var(--game-size);
+	height: var(--game-size);
+}
+
+// --- Chest
+
+.chest {
+	width: var(--tile-size);
+	height: var(--tile-size);
+	position: absolute;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	animation: chest-animation 4s steps(2) infinite;
+}
+
+@keyframes chest-animation {
+	from {
+		background-position-x: 0;
+	}
+	to {
+		background-position-x: -96px;
+	}
+}
+
+// --- Forniture
+
+.forniture {
+	width: var(--tile-size);
+	height: var(--tile-size);
+	position: absolute;
+}
+
+// --- Hero
+
+.hero {
+	width: var(--tile-size);
+	height: calc(var(--tile-size) + var(--helmet-offset));
+	position: absolute;
+	z-index: 1;
+	background-image: url();
+	background-repeat: no-repeat;
+	animation: heroAnimation 1s steps(4) infinite;
+
+	// ! Negative value
+	transform: translateY(calc(-1 * var(--helmet-offset)));
+	background-position: 0 calc(-1 * var(--tile-size) + var(--helmet-offset));
+}
+
+@keyframes heroAnimation {
+	from {
+		background-position-x: 0;
+	}
+	to {
+		background-position-x: -192px;
+	}
+}
+
+// --- Mini Demon
+.mini-demon {
+	width: var(--tile-size);
+	height: calc(var(--tile-size) + var(--helmet-offset));
+	z-index: 1;
+	position: absolute;
+	background-image: url("");
+	background-repeat: no-repeat;
+	animation: miniDemonAnimation 1s steps(4) infinite;
+
+	// ! Negative value
+	transform: translateY(calc(-1 * var(--helmet-offset)));
+	background-position: 0 calc(-1 * var(--tile-size) + var(--helmet-offset));
+}
+
+@keyframes miniDemonAnimation {
+	from {
+		background-position-x: 0;
+	}
+	to {
+		background-position-x: -192px;
+	}
+}
+
+// --- Trap
+.trap {
+	width: var(--tile-size);
+	height: var(--tile-size);
+	position: absolute;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	animation: trapAnimation 1s steps(8) infinite;
+}
+
+@keyframes trapAnimation {
+	from {
+		background-position-x: 0;
+	}
+	to {
+		background-position-x: -384px;
+	}
+}

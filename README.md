@@ -10,7 +10,7 @@ Explore, jogue e, se desejar, contribua com melhorias ou crie novas versões des
 
 # Bullet Square
 
-<img width=50% src="" alt="0">
+<img width=50% src="https://github.com/Lucasbarbosa332/Biblioteca-games-/blob/main/cubo%20vs%20traingulo%20.jpg?raw=true" alt="0">
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)

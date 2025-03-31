@@ -26,7 +26,7 @@ Explore, jogue e, se desejar, contribua com melhorias ou crie novas versões des
 
 # The Hero
 
-<img width=50% src="" alt="0">
+<img width=50% src="https://github.com/Lucasbarbosa332/Biblioteca-games-/blob/main/hero-game/img/The%20hero.jpg?raw=true" alt="0">
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

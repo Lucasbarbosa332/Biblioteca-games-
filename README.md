@@ -18,7 +18,8 @@ Explore, jogue e, se desejar, contribua com melhorias ou crie novas versões des
 
 # The cube 
 
-<img width=50% src="" alt="0">
+<img width=50% src="![Uploading image.png…]()
+" alt="0">
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

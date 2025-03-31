@@ -33,7 +33,7 @@ Explore, jogue e, se desejar, contribua com melhorias ou crie novas versões des
 
 # SKY gun 
 
-<img width=50% src="" alt="0">
+<img width=50% src="https://github.com/Lucasbarbosa332/Biblioteca-games-/blob/main/top-gunwar-plane-mini-game/dist/space%20gun%20.jpg?raw=true" alt="0">
 
 
 
